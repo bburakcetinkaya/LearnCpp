@@ -1,6 +1,7 @@
 #include "Operations.h"
 #include "Constants.h"
 #include "Q1.h"
+#include "Q2.h"
 #include <iostream>
 
 namespace Questions
@@ -14,6 +15,7 @@ namespace Questions
 	void question_2()
 	{
 		std::cout << "Question 2:\n";
+		Q2::assertResult();
 	}
 	void question_3()
 	{
