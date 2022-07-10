@@ -132,6 +132,7 @@
     <ClCompile Include="Operations.cpp" />
     <ClCompile Include="Q1.cpp" />
     <ClCompile Include="Q2.cpp" />
+    <ClCompile Include="Q3.cpp" />
     <ClCompile Include="Questions.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +140,7 @@
     <ClInclude Include="Operations.h" />
     <ClInclude Include="Q1.h" />
     <ClInclude Include="Q2.h" />
+    <ClInclude Include="Q3.h" />
     <ClInclude Include="Questions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

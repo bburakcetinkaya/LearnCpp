@@ -19,7 +19,6 @@ namespace Q2
 		{
 			if (!(num % i))
 				return false;
-
 		}
 		return true;
 
