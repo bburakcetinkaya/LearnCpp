@@ -1,9 +1,9 @@
 #ifndef CONSTANTS_H
 #define CONSTANTS_H
 
-inline namespace constants
+namespace constants
 {
-	constexpr  int max_class_size{ 35 };
+	inline constexpr  int max_class_size{ 35 };
 
 }
 
