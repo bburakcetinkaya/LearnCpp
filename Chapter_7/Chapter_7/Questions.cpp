@@ -3,6 +3,7 @@
 #include "Q1.h"
 #include "Q2.h"
 #include "Q3.h"
+#include "Q4.h"
 #include <iostream>
 
 namespace Questions
@@ -42,6 +43,24 @@ namespace Questions
 	}
 	void question_4()
 	{
+		int guesses{ 7 };
+		int num{};
+		int guess{};
+		bool result{ false };
+
 		std::cout << "Question 4:\n";
+		std::cout << "You have 7 guesses to guess the number.\n";
+		num = Q3::generateRandomNumber();
+		while (true)
+		{
+			guess = Q4::getValidNum();
+			result = Q3::evaluateGuess(guess, num);
+			guesses--;
+
+			std::cout << "Remaining guesses = " << guesses << '\n';
+			if (!guesses || result) break;
+		}
+		std::cout << result ? "You won" : "You lost";
+		std::cout << "\n The number was " << num;
 	}
 }

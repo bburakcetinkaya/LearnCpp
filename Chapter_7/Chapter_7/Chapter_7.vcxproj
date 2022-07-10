@@ -133,6 +133,7 @@
     <ClCompile Include="Q1.cpp" />
     <ClCompile Include="Q2.cpp" />
     <ClCompile Include="Q3.cpp" />
+    <ClCompile Include="Q4.cpp" />
     <ClCompile Include="Questions.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +142,7 @@
     <ClInclude Include="Q1.h" />
     <ClInclude Include="Q2.h" />
     <ClInclude Include="Q3.h" />
+    <ClInclude Include="Q4.h" />
     <ClInclude Include="Questions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
