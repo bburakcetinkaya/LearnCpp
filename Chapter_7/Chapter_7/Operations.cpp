@@ -28,16 +28,24 @@ namespace Operations
 			std::exit(0);
 			break;
 		case 1:
+			std::cout << "\n-------------------------\n";
 			Questions::question_1();
+			std::cout << "\n-------------------------\n";
 			break;
 		case 2:
+			std::cout << "\n-------------------------\n";
 			Questions::question_2();
+			std::cout << "\n-------------------------\n";
 			break;
 		case 3:
+			std::cout << "\n-------------------------\n";
 			Questions::question_3();
+			std::cout << "\n-------------------------\n";
 			break;
 		case 4:
+			std::cout << "\n-------------------------\n";
 			Questions::question_4();
+			std::cout << "\n-------------------------\n";
 			break;
 		}
 
