@@ -128,11 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BlackJack.cpp" />
     <ClCompile Include="Deck.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="print.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BlackJack.h" />
     <ClInclude Include="Deck.h" />
     <ClInclude Include="Print.h" />
   </ItemGroup>

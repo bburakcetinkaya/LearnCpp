@@ -24,12 +24,18 @@
     <ClCompile Include="Deck.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BlackJack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Deck.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackJack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
